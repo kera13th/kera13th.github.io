@@ -1,0 +1,221 @@
+body {
+    background-color: #0f0e17;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.2vw;
+    
+}
+
+
+.wrapper {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 1em;
+    /*border: 1px solid wheat;*/
+}
+
+
+/*text sizing*/
+h1 {
+    font-size: 2.7em;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.3;
+}
+
+.project h2 {
+    padding-left: .5;
+}
+
+h5 {
+    font-size: .8em;
+    font-weight: lighter;
+    line-height: 2.3;
+}
+
+p,span { 
+    font-size: .8em;
+    padding-top: 1em;
+    font-weight: 300;
+    line-height: 1.3em;
+
+}
+
+section {
+    padding: 1rem;
+    margin:  20px 0;
+
+}
+
+.socials a {
+    font-size: .8em;   
+    color: aliceblue;
+}
+
+.socials i {
+    font-size: .8em;   
+    color: rgb(125, 0, 227);
+}
+
+.cta p {
+    font-size: 1em;
+}
+/*COLORS*/
+body {
+    color: rgb(241, 241, 241); /*default font-color*/
+}
+
+    p {
+ color: rgb(111, 121, 121);   
+}
+
+.header-button {
+    background-color: rgb(242, 130, 18);
+}
+
+.highlight {
+    color: rgb(242, 130, 18);
+}
+
+.cta p {
+    color: rgb(241, 241, 241);
+}
+/*Header*/
+.navtop {
+    height: 80px;
+    padding: 1em;
+    padding-left: 60px;
+    display: flexbox;
+}
+.headline {
+
+    margin-bottom: 20px;
+    padding: 1rem;
+}
+
+.header-button {
+    width: 100px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.header-button a {
+
+}
+
+.download {
+    margin-left: 10px;
+}
+.about-work {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.about-work > *{
+    width:100%;
+    padding:1rem;
+}
+
+.skill-item {
+
+}
+
+
+
+.project {
+    padding-left: 1em;
+    margin-top: 1em;
+}
+
+
+.cta {
+
+    margin: 0 auto;
+    background-color: rgb(110, 0, 219);
+    padding-bottom: 30px;
+}
+
+
+.footer {
+    height: 50px;
+    margin: 0 auto;
+    height: 50px;
+
+    display:flex;
+    flex-wrap:wrap;
+
+      /*this centers the text horizontally*/
+  justify-content: center;
+
+  /*this centers the text vertically*/
+  align-items: center;
+}
+
+.footer > *{
+    width:100%;
+    padding:1rem;
+}
+
+.footer-info {
+padding: 0 2em;
+justify-content: flex-start;
+
+}
+
+.socials {
+    width: 350px;
+    align-self: flex-end;
+
+
+}
+
+.socials ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.socials li {
+    float: left;
+    width: 100px;
+}
+
+.socials li a {
+    display: block;
+    text-decoration: none;
+}
+
+.social-title {
+    position: relative;
+    top: -22px;
+    left: 30px;
+    
+}
+
+
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .about-work > * {
+        width:calc(100% / 3);
+    }
+
+
+    .footer > * {
+        width:calc(100% / 2);
+        align-items: center;
+        margin: 20px auto;
+
+    }
+
+
+}
